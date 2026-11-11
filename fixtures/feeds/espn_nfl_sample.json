@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "id": "401772610",
+      "date": "2026-08-15T02:25:00Z",
+      "competitions": [
+        {
+          "venue": {"fullName": "Lumen Field"},
+          "competitors": [
+            {"homeAway": "home", "team": {"displayName": "Seattle Seahawks"}},
+            {"homeAway": "away", "team": {"displayName": "Denver Broncos"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772611",
+      "date": "2026-08-15T00:00:00Z",
+      "competitions": [
+        {
+          "venue": {"fullName": "Levi's Stadium"},
+          "competitors": [
+            {"homeAway": "home", "team": {"displayName": "San Francisco 49ers"}},
+            {"homeAway": "away", "team": {"displayName": "Seattle Seahawks"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

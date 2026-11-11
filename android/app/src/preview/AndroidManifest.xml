@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <receiver android:name="com.rideedge.app.RecordingTourReceiver" android:exported="true" />
+        <activity android:name="com.rideedge.app.EdgeIconReviewActivity" android:exported="true" />
+    </application>
+</manifest>

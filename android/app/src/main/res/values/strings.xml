@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RideEdge</string>
+    <string name="shortcut_working">Working Now</string>
+    <string name="shortcut_ask">Ask Qwen</string>
+    <string name="shortcut_tonight">Should I Drive?</string>
+</resources>

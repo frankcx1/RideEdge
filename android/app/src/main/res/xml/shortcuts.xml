@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="working"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_working"
+        android:shortcutLongLabel="@string/shortcut_working">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.rideedge.app"
+            android:targetClass="com.rideedge.app.MainActivity">
+            <extra android:name="start_tab" android:value="working" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="ask"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_ask"
+        android:shortcutLongLabel="@string/shortcut_ask">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.rideedge.app"
+            android:targetClass="com.rideedge.app.MainActivity">
+            <extra android:name="start_tab" android:value="ask" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="tonight"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_tonight"
+        android:shortcutLongLabel="@string/shortcut_tonight">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.rideedge.app"
+            android:targetClass="com.rideedge.app.MainActivity">
+            <extra android:name="start_tab" android:value="tonight" />
+        </intent>
+    </shortcut>
+</shortcuts>

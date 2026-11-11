@@ -1,0 +1,60 @@
+{
+ "games": [
+  {
+   "id": 2026010005,
+   "gameDate": "2026-09-19",
+   "startTimeUTC": "2026-09-20T01:00:00Z",
+   "venue": {
+    "default": "Climate Pledge Arena"
+   },
+   "homeTeam": {
+    "abbrev": "SEA"
+   },
+   "awayTeam": {
+    "abbrev": "VAN"
+   }
+  },
+  {
+   "id": 2026010038,
+   "gameDate": "2026-09-24",
+   "startTimeUTC": "2026-09-25T01:40:00Z",
+   "venue": {
+    "default": "Climate Pledge Arena"
+   },
+   "homeTeam": {
+    "abbrev": "SEA"
+   },
+   "awayTeam": {
+    "abbrev": "CGY"
+   }
+  },
+  {
+   "id": 2026020038,
+   "gameDate": "2026-10-04",
+   "startTimeUTC": "2026-10-05T00:00:00Z",
+   "venue": {
+    "default": "Climate Pledge Arena"
+   },
+   "homeTeam": {
+    "abbrev": "SEA"
+   },
+   "awayTeam": {
+    "abbrev": "CGY"
+   }
+  },
+  {
+   "id": 2026020051,
+   "gameDate": "2026-10-06",
+   "startTimeUTC": "2026-10-07T01:40:00Z",
+   "venue": {
+    "default": "Climate Pledge Arena"
+   },
+   "homeTeam": {
+    "abbrev": "SEA"
+   },
+   "awayTeam": {
+    "abbrev": "VGK"
+   }
+  }
+ ]
+}

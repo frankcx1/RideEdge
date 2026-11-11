@@ -1,0 +1,18 @@
+{
+  "origin_zone": "kirkland_home",
+  "basis": "live",
+  "source": "fixture:google_routes",
+  "fetched_at": "2026-08-14T20:00:00-07:00",
+  "routes": [
+    {"destination_anchor_id":"kirkland_candidate_1","traffic_minutes":8,"distance_miles":3.2},
+    {"destination_anchor_id":"the_lime_kirkland","traffic_minutes":6,"distance_miles":2.1},
+    {"destination_anchor_id":"bellevue_candidate_1","traffic_minutes":18,"distance_miles":10.5},
+    {"destination_anchor_id":"capitol_hill_candidate_1","traffic_minutes":27,"distance_miles":17.4},
+    {"destination_anchor_id":"seattle_center_candidate_1","traffic_minutes":31,"distance_miles":19.2},
+    {"destination_anchor_id":"redmond_candidate_1","traffic_minutes":14,"distance_miles":6.8},
+    {"destination_anchor_id":"marymoor_candidate_1","traffic_minutes":16,"distance_miles":7.4},
+    {"destination_anchor_id":"woodinville_candidate_1","traffic_minutes":18,"distance_miles":9.6},
+    {"destination_anchor_id":"sodo_stadiums_candidate_1","traffic_minutes":34,"distance_miles":21.0},
+    {"destination_anchor_id":"sea_airport_candidate_1","traffic_minutes":28,"distance_miles":22.5}
+  ]
+}

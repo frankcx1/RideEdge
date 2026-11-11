@@ -1,0 +1,36 @@
+{
+  "page": {"totalElements": 4, "size": 4},
+  "_embedded": {
+    "events": [
+      {
+        "id": "tm-climate-1",
+        "name": "Phoebe Bridgers",
+        "url": "https://www.ticketmaster.com/example",
+        "dates": {"start": {"dateTime": "2026-08-15T03:00:00Z"}},
+        "classifications": [{"segment": {"name": "Music"}}],
+        "_embedded": {"venues": [{"name": "Climate Pledge Arena"}]}
+      },
+      {
+        "id": "tm-husky-sports",
+        "name": "Washington Huskies vs Washington State",
+        "dates": {"start": {"dateTime": "2026-09-06T20:00:00Z"}},
+        "classifications": [{"segment": {"name": "Sports"}}],
+        "_embedded": {"venues": [{"name": "Alaska Airlines Field at Husky Stadium"}]}
+      },
+      {
+        "id": "tm-marymoor",
+        "name": "Summer Concert",
+        "dates": {"start": {"localDate": "2026-08-14", "localTime": "19:00:00"}},
+        "classifications": [{"segment": {"name": "Music"}}],
+        "_embedded": {"venues": [{"name": "Marymoor Park"}]}
+      },
+      {
+        "id": "tm-tacoma",
+        "name": "Tacoma Dome show",
+        "dates": {"start": {"dateTime": "2026-08-14T03:00:00Z"}},
+        "classifications": [{"segment": {"name": "Music"}}],
+        "_embedded": {"venues": [{"name": "Tacoma Dome"}]}
+      }
+    ]
+  }
+}

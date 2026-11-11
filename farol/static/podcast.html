@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>__PRODUCT_NAME__ · Podcast recording</title><link rel="stylesheet" href="/podcast.css?v=20260919-1"><script src="/product.js"></script><script src="/podcast.js?v=20260919-1" defer></script></head>
+<body>
+<div id="capture"><div id="stage-wrap"><main id="stage" aria-label="16:9 podcast stage">
+  <header><div class="brand"><i></i><span>__PRODUCT_NAME__</span></div><nav aria-label="App modes"><span id="mode-decide">Should I drive?</span><span id="mode-working">Working</span><span id="mode-around">Around you</span></nav><span id="source-badge" class="badge">Recording companion</span></header>
+  <section id="scene" aria-live="polite"><p class="kicker">PODCAST DEMO</p><h1>Getting the app ready…</h1></section>
+  <footer><span>City data. Your AI. Your call.</span><span id="scene-note">Seattle &amp; the Eastside</span><span id="scene-count"></span></footer>
+</main></div></div>
+<section id="controls" aria-label="Recording controls">
+ <div class="transport"><button id="back" aria-label="Previous cue">← Back</button><button id="play" class="primary">Play visuals</button><button id="next" aria-label="Next cue">Next →</button><button id="reset">Restart</button><span id="clock">0:00 / 5:00</span><input id="scrub" aria-label="Playback position" type="range" min="0" max="300" value="0" step="0.05"><button id="clean">Clean frame</button><button id="fullscreen">Fullscreen</button><button id="setup-toggle" aria-expanded="false">Timing &amp; audio</button><a href="/#working">Open regular app</a></div>
+ <div class="cue-line"><strong id="cue-title"></strong><span id="cue-quote"></span><span id="timing-state">Estimated timing · source text has no timestamps</span></div>
+ <p id="error" role="alert" hidden></p>
+ <details id="setup"><summary>Recording setup</summary>
+  <p>The cue order follows <b>Uber App Text.txt</b>. Timing starts as a 5-minute estimate. Load the recorded segment to align exact phrase changes. Audio stays in this browser; nothing is uploaded.</p>
+  <div class="setup-grid"><label>Recorded audio or video<input id="media-file" type="file" accept="audio/*,video/*"></label><label>Segment starts at (seconds in recording)<input id="segment-start" type="number" min="0" value="0" step="0.1"></label><label>Segment duration (seconds)<input id="duration" type="number" min="30" max="7200" value="300" step="0.1"></label><label class="check"><input id="muted" type="checkbox" checked> Mute source audio for visual-only recording</label></div>
+  <p id="media-status">No source recording loaded. Space plays/pauses. Left/right changes cue. H hides controls. F enters fullscreen. Escape restores controls.</p>
+  <video id="source-media" preload="metadata" hidden></video>
+  <div class="setup-actions"><button id="save-timing">Save cue timing</button><label class="file-button">Load cue timing<input id="load-timing" type="file" accept="application/json,.json"></label><button id="estimate">Reset estimated times</button><button id="confirm-timing">Mark timing reviewed</button><button id="reload-data">Refresh collected examples</button></div>
+  <p id="data-status"></p><div id="cue-editor"></div>
+ </details>
+</section>
+</body></html>

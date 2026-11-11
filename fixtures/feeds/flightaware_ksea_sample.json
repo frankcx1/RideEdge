@@ -1,0 +1,29 @@
+{
+  "num_pages": 1,
+  "arrivals": [
+    {
+      "ident": "ASA599",
+      "origin": {"code": "KRNO"},
+      "scheduled_in": "2026-08-14T18:51:00Z",
+      "estimated_in": "2026-08-14T18:16:00Z",
+      "actual_in": null,
+      "status": "En Route"
+    },
+    {
+      "ident": "ASA770",
+      "origin": {"code": "KLAX"},
+      "scheduled_in": "2026-08-14T18:39:00Z",
+      "estimated_in": "2026-08-14T18:20:00Z",
+      "actual_in": null,
+      "status": "En Route"
+    },
+    {
+      "ident": "DAL123",
+      "origin": {"code": "KATL"},
+      "scheduled_in": "2026-08-14T18:45:00Z",
+      "estimated_in": "2026-08-14T18:30:00Z",
+      "actual_in": null,
+      "status": "En Route"
+    }
+  ]
+}

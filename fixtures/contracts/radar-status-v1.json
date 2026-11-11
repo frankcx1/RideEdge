@@ -1,0 +1,17 @@
+{
+  "synthetic": true,
+  "backend": "fixture",
+  "collector": {
+    "running": true,
+    "last_run_usage": {
+      "scope": "Synthetic request counts for offline visual review.",
+      "providers": {
+        "flightaware": {"http_attempts": 6, "cache_hits": 1, "http_failures": 0}
+      }
+    }
+  },
+  "qwen_loaded": false,
+  "model_server_reachable": true,
+  "qwen": {"state": "synthetic fixture"},
+  "evidence_generated_at": "2026-11-01T06:30:00Z"
+}

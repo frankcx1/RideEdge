@@ -1,0 +1,1364 @@
+{
+  "schema_version": 1,
+  "version": "activity-radar-v2",
+  "snapshot_id": "synthetic-dst-contract",
+  "source_snapshot_id": "dee36ace772e1ed71145",
+  "decision_revision": "ff7b5690a76b5f5acd4c",
+  "location_generation": 0,
+  "generated_at": "2026-11-01T06:00:00Z",
+  "server_time": "2026-11-01T06:00:00Z",
+  "valid_until": "2026-11-01T06:20:00Z",
+  "origin": {
+    "label": "Seattle Center (synthetic fixture)",
+    "zone": "seattle_center",
+    "mode": "selected_area",
+    "latitude": 47.6205,
+    "longitude": -122.3509,
+    "fix_at": null,
+    "accuracy_meters": null
+  },
+  "radius_miles": 5.0,
+  "now": [
+    {
+      "id": "district:seattle_center",
+      "name": "Seattle Center / Climate Pledge",
+      "zone": "seattle_center",
+      "latitude": 47.622,
+      "longitude": -122.354,
+      "radius_miles": 0.18,
+      "within_now_radius": true,
+      "route": {
+        "minutes": 0.7,
+        "miles": 0.2,
+        "basis": "estimated",
+        "fetched_at": null
+      },
+      "evidence": [
+        {
+          "id": "district:seattle_center",
+          "source": "Local area catalog",
+          "basis": "best guess",
+          "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+          "fetched_at": null,
+          "measurement_time": null,
+          "starts_at": null,
+          "ends_at": null,
+          "value": null,
+          "timing_note": null
+        }
+      ],
+      "strength": "Best guess",
+      "category": "Areas",
+      "pin_basis": "area center",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+      "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+      "ends_at": null,
+      "busyness": null,
+      "busyness_basis": null,
+      "context_only": false,
+      "reachable": null,
+      "actionable": true,
+      "valid_until": "2026-11-01T06:20:00Z",
+      "unavailable_reason": null,
+      "activity_weight": 9.0,
+      "score": 8.69
+    },
+    {
+      "id": "district:belltown",
+      "name": "Belltown / waterfront",
+      "zone": "belltown",
+      "latitude": 47.613,
+      "longitude": -122.345,
+      "radius_miles": 0.59,
+      "within_now_radius": true,
+      "route": {
+        "minutes": 2.2,
+        "miles": 0.8,
+        "basis": "estimated",
+        "fetched_at": null
+      },
+      "evidence": [
+        {
+          "id": "district:belltown",
+          "source": "Local area catalog",
+          "basis": "best guess",
+          "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+          "fetched_at": null,
+          "measurement_time": null,
+          "starts_at": null,
+          "ends_at": null,
+          "value": null,
+          "timing_note": null
+        }
+      ],
+      "strength": "Best guess",
+      "category": "Areas",
+      "pin_basis": "area center",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+      "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+      "ends_at": null,
+      "busyness": null,
+      "busyness_basis": null,
+      "context_only": false,
+      "reachable": null,
+      "actionable": true,
+      "valid_until": "2026-11-01T06:20:00Z",
+      "unavailable_reason": null,
+      "activity_weight": 9.0,
+      "score": 8.01
+    },
+    {
+      "id": "district:seattle_core",
+      "name": "Seattle core",
+      "zone": "seattle_core",
+      "latitude": 47.61,
+      "longitude": -122.337,
+      "radius_miles": 0.97,
+      "within_now_radius": true,
+      "route": {
+        "minutes": 3.6,
+        "miles": 1.3,
+        "basis": "estimated",
+        "fetched_at": null
+      },
+      "evidence": [
+        {
+          "id": "district:seattle_core",
+          "source": "Local area catalog",
+          "basis": "best guess",
+          "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+          "fetched_at": null,
+          "measurement_time": null,
+          "starts_at": null,
+          "ends_at": null,
+          "value": null,
+          "timing_note": null
+        }
+      ],
+      "strength": "Best guess",
+      "category": "Areas",
+      "pin_basis": "area center",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=47.61,-122.337",
+      "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+      "ends_at": null,
+      "busyness": null,
+      "busyness_basis": null,
+      "context_only": false,
+      "reachable": null,
+      "actionable": true,
+      "valid_until": "2026-11-01T06:20:00Z",
+      "unavailable_reason": null,
+      "activity_weight": 9.0,
+      "score": 7.38
+    }
+  ],
+  "nearby": [
+    {
+      "id": "district:seattle_center",
+      "name": "Seattle Center / Climate Pledge",
+      "zone": "seattle_center",
+      "latitude": 47.622,
+      "longitude": -122.354,
+      "radius_miles": 0.18,
+      "within_now_radius": true,
+      "route": {
+        "minutes": 0.7,
+        "miles": 0.2,
+        "basis": "estimated",
+        "fetched_at": null
+      },
+      "evidence": [
+        {
+          "id": "district:seattle_center",
+          "source": "Local area catalog",
+          "basis": "best guess",
+          "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+          "fetched_at": null,
+          "measurement_time": null,
+          "starts_at": null,
+          "ends_at": null,
+          "value": null,
+          "timing_note": null
+        }
+      ],
+      "strength": "Best guess",
+      "category": "Areas",
+      "pin_basis": "area center",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+      "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+      "ends_at": null,
+      "busyness": null,
+      "busyness_basis": null,
+      "context_only": false,
+      "reachable": null,
+      "actionable": true,
+      "valid_until": "2026-11-01T06:20:00Z",
+      "unavailable_reason": null,
+      "activity_weight": 9.0,
+      "score": 8.69
+    },
+    {
+      "id": "district:belltown",
+      "name": "Belltown / waterfront",
+      "zone": "belltown",
+      "latitude": 47.613,
+      "longitude": -122.345,
+      "radius_miles": 0.59,
+      "within_now_radius": true,
+      "route": {
+        "minutes": 2.2,
+        "miles": 0.8,
+        "basis": "estimated",
+        "fetched_at": null
+      },
+      "evidence": [
+        {
+          "id": "district:belltown",
+          "source": "Local area catalog",
+          "basis": "best guess",
+          "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+          "fetched_at": null,
+          "measurement_time": null,
+          "starts_at": null,
+          "ends_at": null,
+          "value": null,
+          "timing_note": null
+        }
+      ],
+      "strength": "Best guess",
+      "category": "Areas",
+      "pin_basis": "area center",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+      "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+      "ends_at": null,
+      "busyness": null,
+      "busyness_basis": null,
+      "context_only": false,
+      "reachable": null,
+      "actionable": true,
+      "valid_until": "2026-11-01T06:20:00Z",
+      "unavailable_reason": null,
+      "activity_weight": 9.0,
+      "score": 8.01
+    },
+    {
+      "id": "district:seattle_core",
+      "name": "Seattle core",
+      "zone": "seattle_core",
+      "latitude": 47.61,
+      "longitude": -122.337,
+      "radius_miles": 0.97,
+      "within_now_radius": true,
+      "route": {
+        "minutes": 3.6,
+        "miles": 1.3,
+        "basis": "estimated",
+        "fetched_at": null
+      },
+      "evidence": [
+        {
+          "id": "district:seattle_core",
+          "source": "Local area catalog",
+          "basis": "best guess",
+          "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+          "fetched_at": null,
+          "measurement_time": null,
+          "starts_at": null,
+          "ends_at": null,
+          "value": null,
+          "timing_note": null
+        }
+      ],
+      "strength": "Best guess",
+      "category": "Areas",
+      "pin_basis": "area center",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=47.61,-122.337",
+      "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+      "ends_at": null,
+      "busyness": null,
+      "busyness_basis": null,
+      "context_only": false,
+      "reachable": null,
+      "actionable": true,
+      "valid_until": "2026-11-01T06:20:00Z",
+      "unavailable_reason": null,
+      "activity_weight": 9.0,
+      "score": 7.38
+    }
+  ],
+  "further": [],
+  "plan": [
+    {
+      "starts_at": "2026-11-01T06:00:00Z",
+      "ends_at": "2026-11-01T07:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.18,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.7,
+            "miles": 0.2,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.59,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.2,
+            "miles": 0.8,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": false,
+      "outlook_note": "Provisional activity window; reassess after your next ride."
+    },
+    {
+      "starts_at": "2026-11-01T07:00:00Z",
+      "ends_at": "2026-11-01T08:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T08:00:00Z",
+      "ends_at": "2026-11-01T09:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T09:00:00Z",
+      "ends_at": "2026-11-01T10:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T10:00:00Z",
+      "ends_at": "2026-11-01T11:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T11:00:00Z",
+      "ends_at": "2026-11-01T12:00:00Z",
+      "selected_id": null,
+      "selection_basis": "Six-hour algorithm",
+      "options": [],
+      "repeat_area": false,
+      "outlook_note": "Provisional activity window; reassess after your next ride."
+    }
+  ],
+  "algorithm_plan": [
+    {
+      "starts_at": "2026-11-01T06:00:00Z",
+      "ends_at": "2026-11-01T07:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.18,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.7,
+            "miles": 0.2,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.59,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.2,
+            "miles": 0.8,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": false,
+      "outlook_note": "Provisional activity window; reassess after your next ride."
+    },
+    {
+      "starts_at": "2026-11-01T07:00:00Z",
+      "ends_at": "2026-11-01T08:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T08:00:00Z",
+      "ends_at": "2026-11-01T09:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T09:00:00Z",
+      "ends_at": "2026-11-01T10:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T10:00:00Z",
+      "ends_at": "2026-11-01T11:00:00Z",
+      "selected_id": "district:seattle_center",
+      "selection_basis": "Six-hour algorithm",
+      "options": [
+        {
+          "id": "district:seattle_center",
+          "name": "Seattle Center / Climate Pledge",
+          "zone": "seattle_center",
+          "latitude": 47.622,
+          "longitude": -122.354,
+          "radius_miles": 0.0,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 0.0,
+            "miles": 0.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:seattle_center",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.622,-122.354",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.69
+        },
+        {
+          "id": "district:belltown",
+          "name": "Belltown / waterfront",
+          "zone": "belltown",
+          "latitude": 47.613,
+          "longitude": -122.345,
+          "radius_miles": 0.75,
+          "within_now_radius": true,
+          "route": {
+            "minutes": 2.8,
+            "miles": 1.0,
+            "basis": "estimated",
+            "fetched_at": null
+          },
+          "evidence": [
+            {
+              "id": "district:belltown",
+              "source": "Local area catalog",
+              "basis": "best guess",
+              "text": "Evening dining / entertainment district. A positioning guess; current crowds are unverified.",
+              "fetched_at": null,
+              "measurement_time": null,
+              "starts_at": null,
+              "ends_at": null,
+              "value": null,
+              "timing_note": null
+            }
+          ],
+          "strength": "Best guess",
+          "category": "Areas",
+          "pin_basis": "area center",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=47.613,-122.345",
+          "navigation_note": "Area / venue reference; this does not verify a legal pickup curb.",
+          "ends_at": null,
+          "busyness": null,
+          "busyness_basis": null,
+          "context_only": false,
+          "reachable": true,
+          "actionable": false,
+          "valid_until": null,
+          "unavailable_reason": null,
+          "activity_weight": 9.0,
+          "score": 8.01
+        }
+      ],
+      "repeat_area": true,
+      "outlook_note": "Recheck this area at the next refresh; this is not an instruction to wait here for the whole hour. Compare the alternatives below."
+    },
+    {
+      "starts_at": "2026-11-01T11:00:00Z",
+      "ends_at": "2026-11-01T12:00:00Z",
+      "selected_id": null,
+      "selection_basis": "Six-hour algorithm",
+      "options": [],
+      "repeat_area": false,
+      "outlook_note": "Provisional activity window; reassess after your next ride."
+    }
+  ],
+  "qwen": {
+    "state": "pending",
+    "detail": "Qwen is reviewing the activity evidence.",
+    "code": null
+  },
+  "scheduler": {
+    "state": "scheduled",
+    "next_review_at": "2026-11-01T06:15:00Z",
+    "session_expires_at": "2026-11-01T12:00:00Z"
+  },
+  "evidence_stale": false,
+  "location_stale": false,
+  "refreshing": false,
+  "next_refresh_at": "2026-11-01T06:15:00+00:00",
+  "feeds": [
+    {
+      "adapter": "besttime_venue_activity",
+      "mode": "unavailable",
+      "fetched_at": null,
+      "signal_count": 0
+    }
+  ],
+  "excluded_count": 0,
+  "excluded": [],
+  "limits": "Activity signals suggest places to look; they do not reveal Uber requests or guarantee a rider.",
+  "airport_note": "Airport-bound rides are welcome. Rematch depends on Uber; airport arrivals do not justify an empty trip to the queue.",
+  "profile": "UberX · Comfort · Electric (driver reported) · Fri/Sat 6 PM–3 AM · $200 goal / $100 minimum goal",
+  "comparison": {
+    "state": "pending",
+    "hours": [
+      {
+        "starts_at": "2026-11-01T06:00:00+00:00",
+        "qwen_name": null,
+        "algorithm_name": "Seattle Center / Climate Pledge",
+        "agreement": "pending"
+      },
+      {
+        "starts_at": "2026-11-01T07:00:00+00:00",
+        "qwen_name": null,
+        "algorithm_name": "Seattle Center / Climate Pledge",
+        "agreement": "pending"
+      },
+      {
+        "starts_at": "2026-11-01T08:00:00+00:00",
+        "qwen_name": null,
+        "algorithm_name": "Seattle Center / Climate Pledge",
+        "agreement": "pending"
+      },
+      {
+        "starts_at": "2026-11-01T09:00:00+00:00",
+        "qwen_name": null,
+        "algorithm_name": "Seattle Center / Climate Pledge",
+        "agreement": "pending"
+      },
+      {
+        "starts_at": "2026-11-01T10:00:00+00:00",
+        "qwen_name": null,
+        "algorithm_name": "Seattle Center / Climate Pledge",
+        "agreement": "pending"
+      },
+      {
+        "starts_at": "2026-11-01T11:00:00+00:00",
+        "qwen_name": null,
+        "algorithm_name": null,
+        "agreement": "pending"
+      }
+    ],
+    "same_place_hours": 0,
+    "same_area_hours": 0,
+    "method": "Qwen sees unranked evidence and no algorithm scores or choices. The algorithm searches six-hour sequences using activity and travel cost. Both share the same eligible candidate pool; agreement is not proof of demand."
+  },
+  "synthetic": true
+}

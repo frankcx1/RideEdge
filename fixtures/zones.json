@@ -1,0 +1,460 @@
+{
+  "home_zone": "totem_lake",
+  "origin": {
+    "label": "example_public_origin",
+    "lat": 47.711,
+    "lon": -122.179
+  },
+  "pickup_centers": [
+    {
+      "id": "totem_lake_village",
+      "anchor_id": "totem_lake_candidate_1",
+      "zone": "totem_lake",
+      "label": "Village at Totem Lake",
+      "lat": 47.712,
+      "lon": -122.18,
+      "staging_spot": "120th Ave NE / Village at Totem Lake retail area (curb approval required)",
+      "active_start_hour": 6,
+      "active_end_hour": 23,
+      "suitability_score": 8.8,
+      "anchor_approved": false
+    },
+    {
+      "id": "kirkland_waterfront",
+      "anchor_id": "kirkland_candidate_1",
+      "zone": "kirkland_waterfront",
+      "label": "Downtown Kirkland Waterfront",
+      "lat": 47.676,
+      "lon": -122.206,
+      "staging_spot": "Lake St & Kirkland Ave waterfront area (curb approval required)",
+      "active_start_hour": 7,
+      "active_end_hour": 24,
+      "suitability_score": 9.1,
+      "anchor_approved": false
+    },
+    {
+      "id": "redmond_downtown",
+      "anchor_id": "redmond_candidate_1",
+      "zone": "redmond_downtown",
+      "label": "Downtown Redmond / Town Center",
+      "lat": 47.674,
+      "lon": -122.121,
+      "staging_spot": "Cleveland St & 164th Ave NE / Redmond Town Center (curb approval required)",
+      "active_start_hour": 6,
+      "active_end_hour": 23,
+      "suitability_score": 8.9,
+      "anchor_approved": false
+    },
+    {
+      "id": "kirkland_rose_hill",
+      "anchor_id": "the_lime_kirkland",
+      "zone": "kirkland_rose_hill",
+      "label": "Kirkland Rose Hill / NE 85th",
+      "lat": 47.6794,
+      "lon": -122.1813,
+      "staging_spot": "NE 85th St & 124th Ave NE retail plaza (curb approval required)",
+      "active_start_hour": 6,
+      "active_end_hour": 22,
+      "suitability_score": 7.8,
+      "anchor_approved": false
+    },
+    {
+      "id": "bellevue_core",
+      "anchor_id": "bellevue_candidate_1",
+      "zone": "bellevue_core",
+      "label": "Downtown Bellevue Core",
+      "lat": 47.615,
+      "lon": -122.201,
+      "staging_spot": "Bellevue Way & NE 8th St / Lincoln Square South (curb approval required)",
+      "active_start_hour": 6,
+      "active_end_hour": 24,
+      "suitability_score": 9.5,
+      "anchor_approved": false
+    },
+    {
+      "id": "woodinville_wine",
+      "anchor_id": "woodinville_candidate_1",
+      "zone": "woodinville_wine",
+      "label": "Woodinville Wine Country",
+      "lat": 47.754,
+      "lon": -122.152,
+      "staging_spot": "148th Ave NE tasting room corridor (curb approval required)",
+      "active_start_hour": 11,
+      "active_end_hour": 21,
+      "suitability_score": 8.2,
+      "anchor_approved": false
+    },
+    {
+      "id": "bothell",
+      "anchor_id": "bothell_candidate_1",
+      "zone": "bothell",
+      "label": "Downtown Bothell / Main St",
+      "lat": 47.762,
+      "lon": -122.206,
+      "staging_spot": "Bothell Way NE & Main St (curb approval required)",
+      "active_start_hour": 7,
+      "active_end_hour": 22,
+      "suitability_score": 7.6,
+      "anchor_approved": false
+    }
+  ],
+  "zones": [
+    {
+      "id": "kirkland_waterfront",
+      "aliases": [
+        "kirkland_bar_strip",
+        "kirkland",
+        "kirkland_home"
+      ],
+      "label": "Kirkland waterfront",
+      "cluster": "eastside",
+      "lat": 47.676,
+      "lon": -122.206
+    },
+    {
+      "id": "kirkland_rose_hill",
+      "aliases": [
+        "rose_hill",
+        "the_lime"
+      ],
+      "label": "Kirkland Rose Hill / The Lime",
+      "cluster": "eastside",
+      "lat": 47.6794,
+      "lon": -122.1813
+    },
+    {
+      "id": "bellevue_core",
+      "aliases": [
+        "bellevue"
+      ],
+      "label": "Bellevue core",
+      "cluster": "eastside",
+      "lat": 47.615,
+      "lon": -122.201
+    },
+    {
+      "id": "redmond_downtown",
+      "aliases": [
+        "redmond"
+      ],
+      "label": "Redmond downtown",
+      "cluster": "eastside",
+      "lat": 47.674,
+      "lon": -122.121
+    },
+    {
+      "id": "totem_lake",
+      "aliases": [
+        "totem lake",
+        "kingsgate",
+        "128th_place"
+      ],
+      "label": "Totem Lake / Kingsgate",
+      "cluster": "eastside",
+      "lat": 47.712,
+      "lon": -122.18
+    },
+    {
+      "id": "woodinville_wine",
+      "aliases": [
+        "woodinville"
+      ],
+      "label": "Woodinville wine country",
+      "cluster": "eastside",
+      "lat": 47.754,
+      "lon": -122.152
+    },
+    {
+      "id": "cottage_lake",
+      "aliases": [
+        "cottage lake"
+      ],
+      "label": "Cottage Lake",
+      "cluster": "eastside",
+      "lat": 47.754,
+      "lon": -122.077
+    },
+    {
+      "id": "sammamish",
+      "aliases": [],
+      "label": "Sammamish",
+      "cluster": "eastside",
+      "lat": 47.616,
+      "lon": -122.036
+    },
+    {
+      "id": "issaquah",
+      "aliases": [],
+      "label": "Issaquah",
+      "cluster": "eastside",
+      "lat": 47.53,
+      "lon": -122.033
+    },
+    {
+      "id": "bothell",
+      "aliases": [],
+      "label": "Bothell",
+      "cluster": "eastside",
+      "lat": 47.762,
+      "lon": -122.206
+    },
+    {
+      "id": "kenmore",
+      "aliases": [],
+      "label": "Kenmore",
+      "cluster": "eastside",
+      "lat": 47.757,
+      "lon": -122.244
+    },
+    {
+      "id": "renton",
+      "aliases": [],
+      "label": "Renton",
+      "cluster": "eastside",
+      "lat": 47.483,
+      "lon": -122.217
+    },
+    {
+      "id": "tukwila",
+      "aliases": [],
+      "label": "Tukwila",
+      "cluster": "airport",
+      "lat": 47.464,
+      "lon": -122.261
+    },
+    {
+      "id": "marymoor",
+      "aliases": [
+        "marymoor_park"
+      ],
+      "label": "Marymoor Park",
+      "cluster": "eastside",
+      "lat": 47.668,
+      "lon": -122.105
+    },
+    {
+      "id": "sea_airport",
+      "aliases": [
+        "sea_airport_queue",
+        "seatac",
+        "seatac_airport",
+        "sea_tac",
+        "seatac_dropoff",
+        "sea"
+      ],
+      "label": "SEA airport",
+      "cluster": "airport",
+      "lat": 47.45,
+      "lon": -122.309
+    },
+    {
+      "id": "capitol_hill",
+      "aliases": [
+        "seattle_capitol_hill"
+      ],
+      "label": "Capitol Hill",
+      "cluster": "seattle",
+      "lat": 47.623,
+      "lon": -122.32
+    },
+    {
+      "id": "seattle_center",
+      "aliases": [
+        "queen_anne",
+        "uptown",
+        "climate_pledge"
+      ],
+      "label": "Seattle Center / Climate Pledge",
+      "cluster": "seattle",
+      "lat": 47.622,
+      "lon": -122.354
+    },
+    {
+      "id": "uw_district",
+      "aliases": [
+        "u_district",
+        "udistrict",
+        "university_district",
+        "husky_stadium",
+        "university_of_washington",
+        "montlake"
+      ],
+      "label": "UW / Husky Stadium",
+      "cluster": "seattle",
+      "lat": 47.6504,
+      "lon": -122.3015
+    },
+    {
+      "id": "sodo_stadiums",
+      "aliases": [
+        "seattle_sodo_stadiums",
+        "stadium_district",
+        "lumen_field",
+        "sodo",
+        "t_mobile_park"
+      ],
+      "label": "SODO stadiums",
+      "cluster": "seattle",
+      "lat": 47.5914,
+      "lon": -122.3325
+    },
+    {
+      "id": "seattle_core",
+      "aliases": [
+        "seattle",
+        "downtown",
+        "downtown_seattle",
+        "slu",
+        "pioneer_square",
+        "first_hill",
+        "south_lake_union"
+      ],
+      "label": "Seattle core",
+      "cluster": "seattle",
+      "lat": 47.61,
+      "lon": -122.337
+    },
+    {
+      "id": "fremont_ballard",
+      "aliases": [
+        "fremont",
+        "ballard",
+        "wallingford",
+        "green_lake"
+      ],
+      "label": "Fremont / Ballard",
+      "cluster": "seattle",
+      "lat": 47.662,
+      "lon": -122.35
+    },
+    {
+      "id": "belltown",
+      "aliases": [
+        "waterfront",
+        "pier_66"
+      ],
+      "label": "Belltown / waterfront",
+      "cluster": "seattle",
+      "lat": 47.613,
+      "lon": -122.345
+    },
+    {
+      "id": "interbay",
+      "aliases": [
+        "terminal_91"
+      ],
+      "label": "Interbay / Terminal 91",
+      "cluster": "seattle",
+      "lat": 47.629,
+      "lon": -122.377
+    },
+    {
+      "id": "west_seattle",
+      "aliases": [
+        "west seattle",
+        "alaska junction"
+      ],
+      "label": "West Seattle / Junction",
+      "cluster": "seattle",
+      "lat": 47.561,
+      "lon": -122.387
+    },
+    {
+      "id": "columbia_city",
+      "aliases": [
+        "columbia city"
+      ],
+      "label": "Columbia City",
+      "cluster": "seattle",
+      "lat": 47.558,
+      "lon": -122.285
+    },
+    {
+      "id": "rainier_beach",
+      "aliases": [
+        "rainier beach",
+        "seward park"
+      ],
+      "label": "Rainier Beach / Seward Park",
+      "cluster": "seattle",
+      "lat": 47.532,
+      "lon": -122.27
+    },
+    {
+      "id": "lake_city",
+      "aliases": [
+        "lake city"
+      ],
+      "label": "Lake City",
+      "cluster": "seattle",
+      "lat": 47.719,
+      "lon": -122.297
+    },
+    {
+      "id": "phinney_greenwood",
+      "aliases": [
+        "phinney",
+        "greenwood",
+        "phinney ridge"
+      ],
+      "label": "Phinney / Greenwood",
+      "cluster": "seattle",
+      "lat": 47.677,
+      "lon": -122.354
+    },
+    {
+      "id": "magnolia",
+      "aliases": [],
+      "label": "Magnolia",
+      "cluster": "seattle",
+      "lat": 47.639,
+      "lon": -122.399
+    },
+    {
+      "id": "northgate",
+      "aliases": [
+        "licton springs"
+      ],
+      "label": "Northgate / Licton Springs",
+      "cluster": "seattle",
+      "lat": 47.706,
+      "lon": -122.326
+    },
+    {
+      "id": "central_district",
+      "aliases": [
+        "central district",
+        "central area"
+      ],
+      "label": "Central District",
+      "cluster": "seattle",
+      "lat": 47.607,
+      "lon": -122.303
+    },
+    {
+      "id": "beacon_hill",
+      "aliases": [
+        "beacon hill"
+      ],
+      "label": "Beacon Hill",
+      "cluster": "seattle",
+      "lat": 47.579,
+      "lon": -122.311
+    },
+    {
+      "id": "georgetown",
+      "aliases": [
+        "south park"
+      ],
+      "label": "Georgetown / South Park",
+      "cluster": "seattle",
+      "lat": 47.548,
+      "lon": -122.321
+    }
+  ],
+  "provenance": {
+    "kind": "public_area_catalog",
+    "origin": "Illustrative public town-center point; not a residence or driver observation",
+    "pickup_pins": "Area references; not approved pickup curbs"
+  }
+}

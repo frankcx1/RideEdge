@@ -1,0 +1,3 @@
+{
+  "output_text": "{\"notes\":[{\"id\":\"union-deadhead\",\"kind\":\"supply\",\"zone\":\"all\",\"title\":\"Drivers Union: majority empty miles\",\"summary\":\"Union analysis of local trips reported about 55 percent of Uber miles without a passenger.\",\"source_url\":\"https://www.driversunionwa.org/protest_at_uber_after_report_shows_market_is_flooded\",\"evidence_quality\":0.55},{\"id\":\"lni-rates\",\"kind\":\"rate_card\",\"zone\":\"all\",\"title\":\"2026 WA vs Seattle TNC floors\",\"summary\":\"L&I lists Seattle $0.70/min + $1.63/mi ($6.12 min) and rest-of-WA $0.40/min + $1.38/mi ($3.55 min).\",\"source_url\":\"https://lni.wa.gov/workers-rights/industry-specific-requirements/transportation-network-company-drivers-rights/getting-paid\",\"evidence_quality\":0.85}]}"
+}

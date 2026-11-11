@@ -1,0 +1,4 @@
+# Copy to local.properties. Never commit the pairing token.
+sdk.dir=C:\\Users\\YOUR_NAME\\AppData\\Local\\Android\\Sdk
+farol.endpoint=http://10.0.2.2:8787/api/navigation/current
+farol.carToken=replace-with-a-long-random-token

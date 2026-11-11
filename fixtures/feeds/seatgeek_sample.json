@@ -1,0 +1,29 @@
+{
+  "meta": {"total": 3},
+  "events": [
+    {
+      "id": 801,
+      "title": "Phoebe Bridgers",
+      "type": "concert",
+      "datetime_local": "2026-08-14T20:00:00",
+      "taxonomies": [{"name": "concert"}],
+      "venue": {"name": "Climate Pledge Arena", "city": "Seattle"},
+      "stats": {"listing_count": 42}
+    },
+    {
+      "id": 802,
+      "title": "Mariners vs Yankees",
+      "type": "mlb",
+      "datetime_local": "2026-08-14T19:10:00",
+      "taxonomies": [{"name": "mlb"}, {"name": "sports"}],
+      "venue": {"name": "T-Mobile Park", "city": "Seattle"}
+    },
+    {
+      "id": 803,
+      "title": "Climate Pledge Arena Tours",
+      "type": "family",
+      "datetime_local": "2026-08-14T12:00:00",
+      "venue": {"name": "Climate Pledge Arena", "city": "Seattle"}
+    }
+  ]
+}

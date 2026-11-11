@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Normalize handoff geometry into the central 66-unit adaptive safe zone. -->
+    <group android:pivotX="54" android:pivotY="67" android:scaleX="0.8" android:scaleY="0.8" android:translateY="-13">
+        <path android:fillColor="#E8722A" android:pathData="M20,84 L64,84 L62,88 L18,88 Z" />
+        <path android:fillColor="#2A5F7F" android:pathData="M64,84 L92,84 L90,88 L62,88 Z" />
+        <path android:fillColor="#E9E4DA" android:pathData="M20,64 H88 A4,4 0,0 1,92 68 V76 A3,3 0,0 1,89 79 H19 A3,3 0,0 1,16 76 V68 A4,4 0,0 1,20 64 Z M30,64 L39,46 H70 L82,64 Z" />
+        <path android:fillColor="#1F3A4D" android:pathData="M38,61 L44,50 H55 V61 Z M59,50 H69 L76,61 H59 Z M36,77 m-9,0 a9,9 0,1 0,18 0 a9,9 0,1 0,-18 0 M74,77 m-9,0 a9,9 0,1 0,18 0 a9,9 0,1 0,-18 0" />
+        <path android:fillColor="#E9E4DA" android:pathData="M36,77 m-4,0 a4,4 0,1 0,8 0 a4,4 0,1 0,-8 0 M74,77 m-4,0 a4,4 0,1 0,8 0 a4,4 0,1 0,-8 0" />
+    </group>
+</vector>

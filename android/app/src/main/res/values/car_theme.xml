@@ -1,0 +1,9 @@
+<resources>
+    <!-- Host-selected day/night variants; host can override accents for contrast. -->
+    <style name="RideEdgeCarTheme">
+        <item name="carColorPrimary">#F08A3C</item>
+        <item name="carColorPrimaryDark">#F6A05C</item>
+        <item name="carColorSecondary">#85B6FA</item>
+        <item name="carColorSecondaryDark">#9EC5FF</item>
+    </style>
+</resources>

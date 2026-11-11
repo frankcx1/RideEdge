@@ -1,0 +1,25 @@
+{
+  "id": "ChIJ7-a7pb4SkFQRqwq3UdE5KF4",
+  "displayName": {"text": "The Lime", "languageCode": "en"},
+  "regularOpeningHours": {
+    "openNow": true,
+    "periods": [
+      {"open": {"day": 0, "hour": 11, "minute": 0}, "close": {"day": 1, "hour": 2, "minute": 0}},
+      {"open": {"day": 1, "hour": 11, "minute": 0}, "close": {"day": 2, "hour": 2, "minute": 0}},
+      {"open": {"day": 2, "hour": 11, "minute": 0}, "close": {"day": 3, "hour": 2, "minute": 0}},
+      {"open": {"day": 3, "hour": 11, "minute": 0}, "close": {"day": 4, "hour": 2, "minute": 0}},
+      {"open": {"day": 4, "hour": 11, "minute": 0}, "close": {"day": 5, "hour": 2, "minute": 0}},
+      {"open": {"day": 5, "hour": 11, "minute": 0}, "close": {"day": 6, "hour": 2, "minute": 0}},
+      {"open": {"day": 6, "hour": 11, "minute": 0}, "close": {"day": 0, "hour": 2, "minute": 0}}
+    ],
+    "weekdayDescriptions": [
+      "Monday: 11:00 AM – 2:00 AM",
+      "Tuesday: 11:00 AM – 2:00 AM",
+      "Wednesday: 11:00 AM – 2:00 AM",
+      "Thursday: 11:00 AM – 2:00 AM",
+      "Friday: 11:00 AM – 2:00 AM",
+      "Saturday: 11:00 AM – 2:00 AM",
+      "Sunday: 11:00 AM – 2:00 AM"
+    ]
+  }
+}

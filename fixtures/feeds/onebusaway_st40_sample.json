@@ -1,0 +1,33 @@
+{
+  "code": 200,
+  "text": "OK",
+  "data": {
+    "references": {
+      "situations": [
+        {
+          "id": "40_delay",
+          "severity": "noImpact",
+          "reason": "MAINTENANCE",
+          "summary": {"lang": "en", "value": "On Sept. 8 trains will be delayed up to 10 minutes for track maintenance."},
+          "description": {"lang": "en", "value": ""},
+          "allAffects": [{"agencyId": "40", "routeId": "40_100479"}],
+          "activeWindows": [{"from": 1788933600000, "to": 1788946200000}]
+        },
+        {
+          "id": "40_crowd",
+          "summary": {"lang": "en", "value": "What’s happening in Seattle today could affect your travel. Plan ahead for additional travel time."},
+          "description": {"lang": "en", "value": "Washington Huskies vs Washington State Cougars."},
+          "allAffects": [{"agencyId": "40", "routeId": "40_2LINE"}],
+          "activeWindows": [{"from": 1788699600000, "to": 1788760800000}]
+        },
+        {
+          "id": "40_bridge",
+          "summary": {"lang": "en", "value": "1 Line is suspended between SODO and Westlake. Bus bridge in effect."},
+          "description": {"lang": "en", "value": "No train service downtown. Use the bus bridge."},
+          "allAffects": [{"agencyId": "40", "routeId": "40_100479"}],
+          "activeWindows": [{"from": 1788699600000, "to": 1788760800000}]
+        }
+      ]
+    }
+  }
+}

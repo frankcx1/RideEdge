@@ -1,0 +1,23 @@
+[
+  {
+    "AlertID": 40518,
+    "Priority": "Medium",
+    "Region": "Northwest",
+    "County": "",
+    "EventCategory": "Construction",
+    "HeadlineDescription": "The northbound I-405 on-/off-ramps at Northeast 85th Street (Exit 18) will close from 10 p.m. Friday.",
+    "StartTime": "2026-08-14T21:00:00-07:00",
+    "EndTime": "2026-08-16T08:00:00-07:00",
+    "StartRoadwayLocation": {"RoadName": "405", "Direction": "N", "MilePost": 18.14}
+  },
+  {
+    "AlertID": 90001,
+    "Priority": "High",
+    "Region": "North Central",
+    "EventCategory": "Incident",
+    "HeadlineDescription": "I-90 Exit 154/Adams Rd. overpass (east of George): closed due to a hole in the bridge deck.",
+    "StartTime": "2026-08-14T12:00:00-07:00",
+    "EndTime": "2026-08-20T12:00:00-07:00",
+    "StartRoadwayLocation": {"RoadName": "090", "Direction": "B", "MilePost": 154.0}
+  }
+]

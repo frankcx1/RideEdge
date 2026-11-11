@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "id": "401858437",
+      "date": "2026-09-06T20:00:00Z",
+      "competitions": [
+        {
+          "venue": {"fullName": "Alaska Airlines Field at Husky Stadium"},
+          "competitors": [
+            {"homeAway": "home", "team": {"displayName": "Washington Huskies"}},
+            {"homeAway": "away", "team": {"displayName": "Washington State Cougars"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401858438",
+      "date": "2026-09-06T20:00:00Z",
+      "competitions": [
+        {
+          "venue": {"fullName": "Martin Stadium"},
+          "competitors": [
+            {"homeAway": "home", "team": {"displayName": "Washington State Cougars"}},
+            {"homeAway": "away", "team": {"displayName": "Washington Huskies"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

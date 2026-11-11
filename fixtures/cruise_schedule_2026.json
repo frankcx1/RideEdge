@@ -1,0 +1,7 @@
+{
+  "season": 2026,
+  "source": "https://www.portseattle.org/file-documents/2026-cruise-schedule (PDF; seed manually)",
+  "seeded_at": null,
+  "note": "Empty until seeded from the Port of Seattle published schedule. Each ship call: {date, ship, terminal (Pier 66 | Terminal 91), passengers, passenger_basis}.",
+  "ship_calls": []
+}

@@ -1,0 +1,188 @@
+{
+  "synthetic": true,
+  "label": "SeaTac retained evidence (synthetic)",
+  "mode": "cache",
+  "fetched_at": "2026-11-01T06:30:00+00:00",
+  "status_message": "Synthetic retained hourly records. No provider requests are made.",
+  "plain_summary": "One page per window, six requests maximum. Cargo exclusion uses a limited carrier-prefix list; passenger loads, ride requests, queue wait and rematches are unknown.",
+  "records": [
+    {
+      "title": "11:30 PM PDT – 12:00 AM PDT",
+      "basis": "current returned schedule",
+      "starts_at": "2026-11-01T06:30:00+00:00",
+      "ends_at": "2026-11-01T07:00:00+00:00",
+      "sampled_flights": 3,
+      "timing_basis_counts": {
+        "scheduled_gate": 3
+      },
+      "flights": [
+        {
+          "ident": "DEMO00",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T06:35:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO01",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T06:43:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO02",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T06:51:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        }
+      ]
+    },
+    {
+      "title": "12:00 AM PDT – 1:00 AM PDT",
+      "basis": "current returned schedule",
+      "starts_at": "2026-11-01T07:00:00+00:00",
+      "ends_at": "2026-11-01T08:00:00+00:00",
+      "sampled_flights": 3,
+      "timing_basis_counts": {
+        "estimated_landing": 3
+      },
+      "flights": [
+        {
+          "ident": "DEMO10",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T07:05:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO11",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T07:13:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO12",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T07:21:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        }
+      ]
+    },
+    {
+      "title": "1:00 AM PDT – 1:00 AM PST",
+      "basis": "current returned schedule",
+      "starts_at": "2026-11-01T08:00:00+00:00",
+      "ends_at": "2026-11-01T09:00:00+00:00",
+      "sampled_flights": 2,
+      "timing_basis_counts": {
+        "scheduled_gate": 2
+      },
+      "flights": [
+        {
+          "ident": "DEMO20",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T08:05:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO21",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T08:13:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        }
+      ]
+    },
+    {
+      "title": "1:00 AM PST – 2:00 AM PST",
+      "basis": "stale or unavailable",
+      "starts_at": "2026-11-01T09:00:00+00:00",
+      "ends_at": "2026-11-01T10:00:00+00:00",
+      "sampled_flights": 2,
+      "timing_basis_counts": {
+        "estimated_landing": 2
+      },
+      "flights": [
+        {
+          "ident": "DEMO30",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T09:05:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO31",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T09:13:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        }
+      ]
+    },
+    {
+      "title": "2:00 AM PST – 3:00 AM PST",
+      "basis": "stale or unavailable",
+      "starts_at": "2026-11-01T10:00:00+00:00",
+      "ends_at": "2026-11-01T11:00:00+00:00",
+      "sampled_flights": null,
+      "timing_basis_counts": {},
+      "flights": []
+    },
+    {
+      "title": "3:00 AM PST – 4:00 AM PST",
+      "basis": "current returned schedule",
+      "starts_at": "2026-11-01T11:00:00+00:00",
+      "ends_at": "2026-11-01T12:00:00+00:00",
+      "sampled_flights": 0,
+      "timing_basis_counts": {},
+      "flights": []
+    }
+  ],
+  "radar_participation": {
+    "state": "reviewed",
+    "snapshot_id": "synthetic-decision-review",
+    "source_snapshot_id": "synthetic-source-review",
+    "reviewed_at": "2026-11-01T06:30:00+00:00",
+    "origin_label": "Seattle Center (synthetic)",
+    "exclusion_scope": "Immediate candidate construction; a record excluded here may be eligible in a future Plan interval.",
+    "note": "Synthetic participation example. Retained flight schedules provide airport context, not an empty trip to the queue. Source availability does not prove rider demand.",
+    "source": {
+      "adapter": "flightaware_sea",
+      "label": "FlightAware SeaTac (synthetic)",
+      "candidate_records": [],
+      "exclusions": [
+        {
+          "id": "fixture-airport-bank",
+          "source": "flightaware:synthetic",
+          "code": "airport_context",
+          "reason": "Airport evidence does not create an airport-queue destination"
+        }
+      ],
+      "selected_now_opportunities": [],
+      "selected_now_context": [],
+      "selected_now_travel": [],
+      "plan_intervals": [],
+      "candidate_count": 0,
+      "exclusion_count": 1,
+      "now_opportunity_count": 0,
+      "now_context_count": 0,
+      "now_travel_count": 0,
+      "plan_interval_count": 0
+    }
+  }
+}

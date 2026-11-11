@@ -1,0 +1,87 @@
+{
+  "note": "Coverage evaluation only; these are not pickup anchors. No scheduled polling.",
+  "venues": [
+    {
+      "id": "caffe_vita_capitol_hill",
+      "name": "Caffe Vita",
+      "address": "1005 E Pike St, Seattle, WA 98122",
+      "city": "Seattle",
+      "area": "Capitol Hill",
+      "kind": "cafe",
+      "address_source": "https://www.caffevita.com/pages/locations"
+    },
+    {
+      "id": "caffe_vita_kexp",
+      "name": "Caffe Vita KEXP",
+      "address": "472 1st Ave N, Seattle, WA 98109",
+      "city": "Seattle",
+      "area": "Seattle Center",
+      "kind": "cafe",
+      "address_source": "https://www.caffevita.com/pages/locations"
+    },
+    {
+      "id": "tavern_law",
+      "name": "Tavern Law",
+      "address": "1406 12th Ave, Seattle, WA 98122",
+      "city": "Seattle",
+      "area": "Capitol Hill",
+      "kind": "bar",
+      "address_source": "https://www.tavernlaw.com/about"
+    },
+    {
+      "id": "the_lime_kirkland",
+      "name": "The Lime",
+      "address": "8544 122nd Ave NE, Kirkland, WA 98033, USA",
+      "kind": "bar",
+      "latitude": 47.6803596,
+      "longitude": -122.17756550000001,
+      "city": "Kirkland",
+      "area": "Rose Hill",
+      "address_source": "fixtures/venues.json"
+    },
+    {
+      "id": "flatstick_kirkland",
+      "name": "Flatstick Pub - Kirkland",
+      "address": "15 Lake St Ste 100, Kirkland, WA 98033, USA",
+      "kind": "bar",
+      "latitude": 47.675923499999996,
+      "longitude": -122.2072226,
+      "city": "Kirkland",
+      "area": "Kirkland waterfront",
+      "address_source": "fixtures/venues.json"
+    },
+    {
+      "id": "earls_bellevue",
+      "name": "Earls Kitchen + Bar",
+      "address": "700 Bellevue Way NE Unit 130, Bellevue, WA 98004, USA",
+      "kind": "bar",
+      "latitude": 47.6163485,
+      "longitude": -122.20125569999999,
+      "city": "Bellevue",
+      "area": "Downtown Bellevue",
+      "address_source": "fixtures/venues.json"
+    },
+    {
+      "id": "joey_bellevue",
+      "name": "JOEY Bellevue",
+      "address": "800 Bellevue Way NE Ste 118, Bellevue, WA 98004, USA",
+      "kind": "bar",
+      "latitude": 47.617715999999994,
+      "longitude": -122.20126299999998,
+      "city": "Bellevue",
+      "area": "Downtown Bellevue",
+      "address_source": "fixtures/venues.json"
+    },
+    {
+      "id": "matador_redmond",
+      "name": "Matador Redmond",
+      "address": "7824 Leary Wy, Redmond, WA 98052, USA",
+      "kind": "bar",
+      "latitude": 47.6732155,
+      "longitude": -122.12298569999999,
+      "city": "Redmond",
+      "area": "Downtown Redmond",
+      "address_source": "fixtures/venues.json"
+    }
+  ]
+}

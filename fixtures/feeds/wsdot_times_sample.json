@@ -1,0 +1,16 @@
+[
+  {
+    "TravelTimeID": 92,
+    "Name": "Seattle-Bellevue via 520",
+    "CurrentTime": 22,
+    "AverageTime": 11,
+    "Distance": 10.31
+  },
+  {
+    "TravelTimeID": 89,
+    "Name": "Bellevue-Seattle via 520",
+    "CurrentTime": 11,
+    "AverageTime": 11,
+    "Distance": 10.53
+  }
+]

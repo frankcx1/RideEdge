@@ -1,0 +1,149 @@
+{
+ "dates": [
+  {
+   "date": "2026-08-20",
+   "games": [
+    {
+     "gamePk": 823747,
+     "gameDate": "2026-08-20T18:10:00Z",
+     "status": {
+      "abstractGameState": "Final"
+     },
+     "venue": {
+      "id": 32,
+      "name": "American Family Field"
+     },
+     "teams": {
+      "home": {
+       "team": {
+        "id": 158,
+        "name": "Milwaukee Brewers"
+       }
+      },
+      "away": {
+       "team": {
+        "name": "Seattle Mariners"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "games": [
+    {
+     "gamePk": 823101,
+     "gameDate": "2026-08-22T02:10:00Z",
+     "status": {
+      "abstractGameState": "Preview"
+     },
+     "venue": {
+      "id": 680,
+      "name": "T-Mobile Park"
+     },
+     "teams": {
+      "home": {
+       "team": {
+        "id": 136,
+        "name": "Seattle Mariners"
+       }
+      },
+      "away": {
+       "team": {
+        "name": "Chicago Cubs"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "games": [
+    {
+     "gamePk": 823100,
+     "gameDate": "2026-08-22T23:15:00Z",
+     "status": {
+      "abstractGameState": "Preview"
+     },
+     "venue": {
+      "id": 680,
+      "name": "T-Mobile Park"
+     },
+     "teams": {
+      "home": {
+       "team": {
+        "id": 136,
+        "name": "Seattle Mariners"
+       }
+      },
+      "away": {
+       "team": {
+        "name": "Chicago Cubs"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "games": [
+    {
+     "gamePk": 823099,
+     "gameDate": "2026-08-23T20:10:00Z",
+     "status": {
+      "abstractGameState": "Preview"
+     },
+     "venue": {
+      "id": 680,
+      "name": "T-Mobile Park"
+     },
+     "teams": {
+      "home": {
+       "team": {
+        "id": 136,
+        "name": "Seattle Mariners"
+       }
+      },
+      "away": {
+       "team": {
+        "name": "Chicago Cubs"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "games": [
+    {
+     "gamePk": 823097,
+     "gameDate": "2026-08-25T01:40:00Z",
+     "status": {
+      "abstractGameState": "Preview"
+     },
+     "venue": {
+      "id": 680,
+      "name": "T-Mobile Park"
+     },
+     "teams": {
+      "home": {
+       "team": {
+        "id": 136,
+        "name": "Seattle Mariners"
+       }
+      },
+      "away": {
+       "team": {
+        "name": "Philadelphia Phillies"
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

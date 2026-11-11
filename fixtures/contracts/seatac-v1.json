@@ -1,0 +1,353 @@
+{
+  "report_schema_version": 1,
+  "synthetic": true,
+  "fetched_at": "2026-11-01T06:30:00+00:00",
+  "hours": [
+    {
+      "hour_index": 0,
+      "hour_label": "11:30 PM PDT – 12:00 AM PDT",
+      "starts_at": "2026-11-01T06:30:00+00:00",
+      "ends_at": "2026-11-01T07:00:00+00:00",
+      "window_minutes": 30.0,
+      "partial_hour": true,
+      "estimated_planes": 3,
+      "sampled_flights": 3,
+      "returned_records": 3,
+      "extrapolated": false,
+      "long_haul_count": 0,
+      "page_full": false,
+      "coverage": "returned_page",
+      "mode": "cache",
+      "fetched_at": "2026-11-01T06:30:00+00:00",
+      "valid_until": "2026-11-01T07:00:00+00:00",
+      "timing_basis_counts": {
+        "scheduled_gate": 3
+      },
+      "excluded_records": {
+        "malformed": 0,
+        "cancelled": 0,
+        "cargo": 0,
+        "unknown_time": 0,
+        "out_of_window": 0,
+        "duplicate": 0,
+        "unknown_identity": 0
+      },
+      "flights": [
+        {
+          "ident": "DEMO00",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T06:35:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO01",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T06:43:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO02",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T06:51:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        }
+      ],
+      "sample_flights": [
+        "DEMO00 (LAX)",
+        "DEMO01 (LAX)",
+        "DEMO02 (LAX)"
+      ],
+      "estimate_method": "Count of identified, timed records in this window; no extrapolation.",
+      "passenger_ready_starts_at": "2026-11-01T06:50:00+00:00",
+      "passenger_ready_ends_at": "2026-11-01T07:20:00+00:00",
+      "passenger_ready_basis": "Illustrative 20-minute delay after arrival, not observed passenger readiness; gate and runway times differ.",
+      "lot_arrival_target": "11:50 PM PDT",
+      "is_peak": false,
+      "usable": true
+    },
+    {
+      "hour_index": 1,
+      "hour_label": "12:00 AM PDT – 1:00 AM PDT",
+      "starts_at": "2026-11-01T07:00:00+00:00",
+      "ends_at": "2026-11-01T08:00:00+00:00",
+      "window_minutes": 60.0,
+      "partial_hour": false,
+      "estimated_planes": 11,
+      "sampled_flights": 3,
+      "returned_records": 3,
+      "extrapolated": true,
+      "long_haul_count": 0,
+      "page_full": true,
+      "coverage": "partial_page",
+      "mode": "cache",
+      "fetched_at": "2026-11-01T06:30:00+00:00",
+      "valid_until": "2026-11-01T07:00:00+00:00",
+      "timing_basis_counts": {
+        "estimated_landing": 3
+      },
+      "excluded_records": {
+        "malformed": 0,
+        "cancelled": 0,
+        "cargo": 0,
+        "unknown_time": 0,
+        "out_of_window": 0,
+        "duplicate": 0,
+        "unknown_identity": 0
+      },
+      "flights": [
+        {
+          "ident": "DEMO10",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T07:05:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO11",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T07:13:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO12",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T07:21:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        }
+      ],
+      "sample_flights": [
+        "DEMO10 (LAX)",
+        "DEMO11 (LAX)",
+        "DEMO12 (LAX)"
+      ],
+      "estimate_method": "Returned count × window minutes / max(sample span, 8 minutes), capped at 48 and never below the sample. Assumes uniform arrivals; not a measured total.",
+      "passenger_ready_starts_at": "2026-11-01T07:20:00+00:00",
+      "passenger_ready_ends_at": "2026-11-01T08:20:00+00:00",
+      "passenger_ready_basis": "Illustrative 20-minute delay after arrival, not observed passenger readiness; gate and runway times differ.",
+      "lot_arrival_target": "12:20 AM PDT",
+      "is_peak": true,
+      "usable": true
+    },
+    {
+      "hour_index": 2,
+      "hour_label": "1:00 AM PDT – 1:00 AM PST",
+      "starts_at": "2026-11-01T08:00:00+00:00",
+      "ends_at": "2026-11-01T09:00:00+00:00",
+      "window_minutes": 60.0,
+      "partial_hour": false,
+      "estimated_planes": 2,
+      "sampled_flights": 2,
+      "returned_records": 2,
+      "extrapolated": false,
+      "long_haul_count": 0,
+      "page_full": false,
+      "coverage": "returned_page",
+      "mode": "cache",
+      "fetched_at": "2026-11-01T06:30:00+00:00",
+      "valid_until": "2026-11-01T07:00:00+00:00",
+      "timing_basis_counts": {
+        "scheduled_gate": 2
+      },
+      "excluded_records": {
+        "malformed": 0,
+        "cancelled": 0,
+        "cargo": 0,
+        "unknown_time": 0,
+        "out_of_window": 0,
+        "duplicate": 0,
+        "unknown_identity": 0
+      },
+      "flights": [
+        {
+          "ident": "DEMO20",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T08:05:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO21",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T08:13:00+00:00",
+          "time_basis": "scheduled_gate",
+          "time_field": "scheduled_in",
+          "long_haul": false
+        }
+      ],
+      "sample_flights": [
+        "DEMO20 (LAX)",
+        "DEMO21 (LAX)"
+      ],
+      "estimate_method": "Count of identified, timed records in this window; no extrapolation.",
+      "passenger_ready_starts_at": "2026-11-01T08:20:00+00:00",
+      "passenger_ready_ends_at": "2026-11-01T09:20:00+00:00",
+      "passenger_ready_basis": "Illustrative 20-minute delay after arrival, not observed passenger readiness; gate and runway times differ.",
+      "lot_arrival_target": "1:20 AM PDT",
+      "is_peak": false,
+      "usable": true
+    },
+    {
+      "hour_index": 3,
+      "hour_label": "1:00 AM PST – 2:00 AM PST",
+      "starts_at": "2026-11-01T09:00:00+00:00",
+      "ends_at": "2026-11-01T10:00:00+00:00",
+      "window_minutes": 60.0,
+      "partial_hour": false,
+      "estimated_planes": 2,
+      "sampled_flights": 2,
+      "returned_records": 2,
+      "extrapolated": false,
+      "long_haul_count": 0,
+      "page_full": false,
+      "coverage": "returned_page",
+      "mode": "stale_cache",
+      "fetched_at": "2026-11-01T05:30:00+00:00",
+      "valid_until": "2026-11-01T06:00:00+00:00",
+      "timing_basis_counts": {
+        "estimated_landing": 2
+      },
+      "excluded_records": {
+        "malformed": 0,
+        "cancelled": 0,
+        "cargo": 0,
+        "unknown_time": 0,
+        "out_of_window": 0,
+        "duplicate": 0,
+        "unknown_identity": 0
+      },
+      "flights": [
+        {
+          "ident": "DEMO30",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T09:05:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        },
+        {
+          "ident": "DEMO31",
+          "origin": "LAX",
+          "arrival_at": "2026-11-01T09:13:00+00:00",
+          "time_basis": "estimated_landing",
+          "time_field": "estimated_on",
+          "long_haul": false
+        }
+      ],
+      "sample_flights": [
+        "DEMO30 (LAX)",
+        "DEMO31 (LAX)"
+      ],
+      "estimate_method": "Count of identified, timed records in this window; no extrapolation.",
+      "passenger_ready_starts_at": "2026-11-01T09:20:00+00:00",
+      "passenger_ready_ends_at": "2026-11-01T10:20:00+00:00",
+      "passenger_ready_basis": "Illustrative 20-minute delay after arrival, not observed passenger readiness; gate and runway times differ.",
+      "lot_arrival_target": "1:20 AM PST",
+      "is_peak": false,
+      "usable": false
+    },
+    {
+      "hour_index": 4,
+      "hour_label": "2:00 AM PST – 3:00 AM PST",
+      "starts_at": "2026-11-01T10:00:00+00:00",
+      "ends_at": "2026-11-01T11:00:00+00:00",
+      "window_minutes": 60.0,
+      "partial_hour": false,
+      "estimated_planes": null,
+      "sampled_flights": null,
+      "returned_records": null,
+      "extrapolated": false,
+      "long_haul_count": 0,
+      "page_full": false,
+      "coverage": "unavailable",
+      "mode": "error",
+      "fetched_at": "2026-11-01T06:30:00+00:00",
+      "valid_until": "2026-11-01T07:00:00+00:00",
+      "timing_basis_counts": {},
+      "excluded_records": {
+        "malformed": 0,
+        "cancelled": 0,
+        "cargo": 0,
+        "unknown_time": 0,
+        "out_of_window": 0,
+        "duplicate": 0,
+        "unknown_identity": 0
+      },
+      "flights": [],
+      "sample_flights": [],
+      "estimate_method": "Count of identified, timed records in this window; no extrapolation.",
+      "passenger_ready_starts_at": "2026-11-01T10:20:00+00:00",
+      "passenger_ready_ends_at": "2026-11-01T11:20:00+00:00",
+      "passenger_ready_basis": "Illustrative 20-minute delay after arrival, not observed passenger readiness; gate and runway times differ.",
+      "lot_arrival_target": "2:20 AM PST",
+      "is_peak": false,
+      "usable": false
+    },
+    {
+      "hour_index": 5,
+      "hour_label": "3:00 AM PST – 4:00 AM PST",
+      "starts_at": "2026-11-01T11:00:00+00:00",
+      "ends_at": "2026-11-01T12:00:00+00:00",
+      "window_minutes": 60.0,
+      "partial_hour": false,
+      "estimated_planes": 0,
+      "sampled_flights": 0,
+      "returned_records": 0,
+      "extrapolated": false,
+      "long_haul_count": 0,
+      "page_full": false,
+      "coverage": "returned_page",
+      "mode": "cache",
+      "fetched_at": "2026-11-01T06:30:00+00:00",
+      "valid_until": "2026-11-01T07:00:00+00:00",
+      "timing_basis_counts": {},
+      "excluded_records": {
+        "malformed": 0,
+        "cancelled": 0,
+        "cargo": 0,
+        "unknown_time": 0,
+        "out_of_window": 0,
+        "duplicate": 0,
+        "unknown_identity": 0
+      },
+      "flights": [],
+      "sample_flights": [],
+      "estimate_method": "Count of identified, timed records in this window; no extrapolation.",
+      "passenger_ready_starts_at": "2026-11-01T11:20:00+00:00",
+      "passenger_ready_ends_at": "2026-11-01T12:20:00+00:00",
+      "passenger_ready_basis": "Illustrative 20-minute delay after arrival, not observed passenger readiness; gate and runway times differ.",
+      "lot_arrival_target": "3:20 AM PST",
+      "is_peak": false,
+      "usable": true
+    }
+  ],
+  "provider_usage": {
+    "http_attempts": 6,
+    "http_failures": 1,
+    "cache_hits": 0,
+    "billed_cost": null,
+    "credits_remaining": null
+  },
+  "server_time": "2026-11-01T06:30:00+00:00",
+  "best_hour_label": "12:00 AM PDT – 1:00 AM PDT (~11 planes)",
+  "best_lot_arrival_time": "12:20 AM PDT",
+  "best_hour_starts_at": "2026-11-01T07:00:00+00:00",
+  "state": "partial",
+  "valid_until": "2026-11-01T07:00:00+00:00",
+  "summary": "Compare returned or estimated arrivals in the remaining windows. Missing pages and unavailable hours can change the apparent peak.",
+  "expired": false,
+  "coverage_note": "One page per window, six requests maximum. Cargo exclusion uses a limited carrier-prefix list; passenger loads, ride requests, queue wait and rematches are unknown.",
+  "selection_basis": "most_forecast_arrivals",
+  "timing_note": "ON timestamps describe runway arrivals; IN timestamps describe gate arrivals. Each returned flight retains its selected time field and basis."
+}

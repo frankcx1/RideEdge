@@ -1,0 +1,65 @@
+field_data/
+.env
+.cache/
+signals/*.json
+beast/logs/
+automotive/local.properties
+automotive/.gradle/
+automotive/**/build/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+# Raw exports and statements belong outside source control.
+/*.csv
+/*.pdf
+/*.xlsx
+/*.xls
+
+# Local toolchains, signing material, generated packages, and private receipts.
+.tools/
+.agents/
+.env.*
+!.env.example
+**/local.properties
+**/.gradle/
+**/.kotlin/
+**/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.mp4
+*.webm
+*.log
+exports/
+recordings/
+phone_snapshots/
+automotive/farol-emulator.png
+review/
+beast/shift.json
+beast/shift.json*.tmp
+beast/*recovery*.json
+beast/grok-bot/
+beast/openclaw/
+/Uber App Text.txt
+# Personal origins and historical ride evidence remain local, never baseline inputs.
+
+fixtures/friday_*.json
+fixtures/drive_flows.json
+
+# Private artifacts and operator-specific notes
+video/
+feedback/
+SESSION_*
+CODEX_HANDOFF*
+*.clixml
+*.sqlite*
+*.db
+*.wav
+*.m4a
+*.srt

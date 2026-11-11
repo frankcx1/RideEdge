@@ -1,0 +1,32 @@
+import java.util.Properties
+
+plugins { id "com.android.application" }
+
+def local = new Properties()
+def localFile = rootProject.file("local.properties")
+if (localFile.exists()) localFile.withInputStream { local.load(it) }
+def farolEndpoint = System.getenv("FAROL_ENDPOINT") ?: local.getProperty("farol.endpoint", "")
+def farolCarToken = System.getenv("FAROL_CAR_TOKEN") ?: local.getProperty("farol.carToken", "")
+
+android {
+    namespace "com.farol.automotive"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.farol.automotive"
+        minSdk 30
+        targetSdk 35
+        versionCode 1
+        versionName "0.1.0"
+        buildConfigField "String", "FAROL_ENDPOINT", "\"${farolEndpoint}\""
+        buildConfigField "String", "FAROL_CAR_TOKEN", "\"${farolCarToken}\""
+    }
+
+    buildFeatures { buildConfig true }
+}
+
+dependencies {
+    implementation "androidx.car.app:app:1.7.0"
+    implementation "androidx.car.app:app-automotive:1.7.0"
+    testImplementation "junit:junit:4.13.2"
+}

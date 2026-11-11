@@ -1,0 +1,54 @@
+{
+  "synthetic": true,
+  "healthy_count": 1,
+  "enabled_count": 1,
+  "total_count": 1,
+  "collected_at": "2026-11-01T06:30:00+00:00",
+  "service_health_note": "Synthetic coverage example. Availability does not establish useful demand evidence.",
+  "feeds": [
+    {
+      "adapter": "flightaware_sea",
+      "label": "FlightAware SeaTac (synthetic fixture)",
+      "mode": "cache",
+      "healthy": true,
+      "signal_count": 10,
+      "count_unit": "retained flight records",
+      "fetched_at": "2026-11-01T06:30:00+00:00",
+      "plain_summary": "Four usable windows; one stale and one unavailable. Limited pages."
+    }
+  ],
+  "radar_participation": {
+    "state": "reviewed",
+    "snapshot_id": "synthetic-decision-review",
+    "source_snapshot_id": "synthetic-source-review",
+    "reviewed_at": "2026-11-01T06:30:00+00:00",
+    "origin_label": "Seattle Center (synthetic)",
+    "exclusion_scope": "Immediate candidate construction; a record excluded here may be eligible in a future Plan interval.",
+    "note": "Synthetic participation example. Retained flight schedules provide airport context, not an empty trip to the queue. Source availability does not prove rider demand.",
+    "sources": [
+      {
+        "adapter": "flightaware_sea",
+        "label": "FlightAware SeaTac (synthetic)",
+        "candidate_records": [],
+        "exclusions": [
+          {
+            "id": "fixture-airport-bank",
+            "source": "flightaware:synthetic",
+            "code": "airport_context",
+            "reason": "Airport evidence does not create an airport-queue destination"
+          }
+        ],
+        "selected_now_opportunities": [],
+        "selected_now_context": [],
+        "selected_now_travel": [],
+        "plan_intervals": [],
+        "candidate_count": 0,
+        "exclusion_count": 1,
+        "now_opportunity_count": 0,
+        "now_context_count": 0,
+        "now_travel_count": 0,
+        "plan_interval_count": 0
+      }
+    ]
+  }
+}

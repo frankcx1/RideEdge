@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Farol · Drive-through lab</title>
+  <style>
+    :root{color-scheme:dark;--bg:#10171d;--card:#1b252e;--line:#34434f;--muted:#adc0cd;--ink:#f1f5f8;--accent:#9fddca;--warn:#ffc985}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:32px 24px 64px}
+    h1{font-size:36px;letter-spacing:-1px;margin:4px 0}h2{font-size:23px;margin:0 0 10px}h3{font-size:17px;margin:0 0 10px}p{margin:8px 0 14px}.muted,small{color:var(--muted)}.eyebrow{letter-spacing:2px;text-transform:uppercase;font-size:12px;color:var(--accent)}
+    .summary{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}.pill{border:1px solid var(--line);border-radius:8px;padding:10px 16px}.good{color:var(--accent)}.bad{color:var(--warn)}
+    .controls{display:flex;gap:12px;align-items:end;margin:24px 0}.controls label{flex:1}.controls select{display:block;width:100%;margin-top:5px}button,select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:12px;font:inherit}button{cursor:pointer}button:disabled{opacity:.4;cursor:default}button:hover:enabled{border-color:var(--accent)}:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    .layout{display:grid;grid-template-columns:260px 1fr;gap:24px}.stops{display:flex;flex-direction:column;gap:8px}.stops button{text-align:left;font-size:14px}.stops button[aria-current=step]{border-color:var(--accent);background:#213934}.stops small{display:block}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin:0 0 16px;min-width:0}.split{display:grid;grid-template-columns:1fr 1fr;gap:16px}.split .card{height:100%}.banner{border-left:3px solid var(--accent);padding:10px 16px;background:#18282c;margin:16px 0}.statement{font-size:19px}.list{margin:0;padding-left:21px}.list li{margin:8px 0}details{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}summary{cursor:pointer}.facts{border-left:2px solid var(--line);padding-left:14px;margin:15px 0}.counts{display:flex;flex-wrap:wrap;gap:10px;font-size:14px}.counts span{padding:4px 9px;background:var(--bg);border-radius:5px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}a{color:var(--accent)}.flow-purpose{color:var(--muted);margin-bottom:20px}.observation{border-top:1px solid var(--line);padding:12px 0}.observation p{margin:3px 0}.step-meta{color:var(--muted);font-size:14px}#stage{min-width:0}#stage p,#stage li{overflow-wrap:anywhere}
+    @media(max-width:800px){main{padding:22px 16px}.layout{grid-template-columns:1fr}.stops{display:grid;grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}.controls{flex-wrap:wrap}.controls label{flex-basis:100%}h1{font-size:30px}}
+    @media(prefers-reduced-motion:no-preference){button{transition:border-color .15s}}
+  </style>
+</head>
+<body><main>
+  <div class="eyebrow">Farol / Recorded-data replay</div>
+  <h1>Drive-through lab</h1>
+  <p class="muted">Walk through real locations and see what the app says as the clock moves.</p>
+  <div id="summary" class="summary"></div>
+  <details><summary>What this test can tell us</summary><p id="scope"></p><p>Each stop runs the production HERE advisor, six-hour opportunity scoring, and Around you filters. The sequence is a set of reference stops, not a road route. A passing check verifies the stated behavior; it does not prove demand or predict a successful pickup.</p><p id="history"></p><p>Navigation approval is disabled in the replay. Source timestamps are preserved. No external APIs or AI models are called.</p></details>
+  <div class="controls"><label for="flow">Test flow<select id="flow"></select></label><button id="previous">← Previous stop</button><button id="next">Next stop →</button></div>
+  <p id="purpose" class="flow-purpose"></p>
+  <div class="layout"><nav id="stops" class="stops" aria-label="Test stops"></nav><section id="stage" aria-label="Selected stop" aria-live="polite"></section></div>
+  <details><summary>Run evidence and reproducibility</summary><p id="generated"></p><p>These local files hold the original captures. Hashes identify the inputs and code used in this run.</p><pre id="provenance"></pre></details>
+</main>
+<script>
+const report=__FLOW_REPORT_JSON__;
+const $=id=>document.getElementById(id);
+const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const clock=value=>value?new Date(value).toLocaleString('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric',weekday:'short',hour:'numeric',minute:'2-digit'})+' PT':'Not available';
+let flowIndex=0,stepIndex=0,metroView=false;
+const summary=report.summary;
+$('summary').innerHTML=`<div class="pill">${summary.flows} flows · ${summary.steps} stops</div><div class="pill ${summary.checks===summary.checks_passed?'good':'bad'}">${summary.checks_passed} / ${summary.checks} checks passed</div><div class="pill">${summary.steps_passed} / ${summary.steps} stops passed</div>`;
+$('scope').textContent=report.scope;
+$('history').textContent=`HERE used ${report.history_trips_used} locally stored trip records for historical aggregates. Raw trips are not included in this report; treat its personalized summaries as private.`;
+$('generated').textContent='Report generated '+clock(report.generated_at)+'. Step times below are simulated.';
+$('provenance').textContent=JSON.stringify({inputs:report.inputs,code_sha256:report.code_sha256},null,2);
+$('flow').innerHTML=report.flows.map((flow,i)=>`<option value="${i}">${esc(flow.title)}${flow.passed?'':' · findings'}</option>`).join('');
+function checkList(step){return `<details open><summary>Behavior checks · ${step.checks.filter(c=>c.passed).length}/${step.checks.length} passed</summary><ul class="list">${step.checks.map(c=>`<li><span class="${c.passed?'good':'bad'}">${c.passed?'PASS':'FAIL'}</span> · ${esc(c.name)}${c.detail?`<br><small>${esc(c.detail)}</small>`:''}</li>`).join('')}</ul></details>`;}
+function activityCards(view){return (view.venue_activity||[]).map(v=>`<div class="observation"><strong>${esc(v.name)} · ${esc(v.area)}</strong><p>${v.typical_now!=null?`Typical for this hour: ${esc(v.typical_now)} / 100.`:v.typically_closed_now?'Typically closed at this hour.':'No usable typical reading for this hour.'} ${!v.weekly_available?'Weekly profile unavailable.':''}</p><p>${v.live_value!=null?`${v.live_recent?'Saved live reading':'Old live reading'}: ${esc(v.live_value)} · typical then ${esc(v.live_baseline)} · retrieved ${esc(clock(v.live_retrieved_at))}.`:'Live reading unavailable in this saved sample.'}</p><small>${esc(v.note)} These are relative busyness values, not people or rider counts.</small></div>`).join('')||'<p>No venues sampled in this view.</p>';}
+function observationCards(rows){return rows.map(o=>`<div class="observation"><small>${esc(o.layer)} · ${esc(o.basis)} · ${esc(o.freshness)}</small><p><strong>${esc(o.title)}</strong></p><p>${esc(o.detail)}</p><small>${esc(o.timing_label)}: ${esc(clock(o.window_starts_at))}–${esc(clock(o.ends_at))}<br>${esc(o.source)} · fetched ${esc(clock(o.fetched_at))}</small></div>`).join('');}
+function render(){
+  const flow=report.flows[flowIndex],step=flow.steps[stepIndex];
+  $('purpose').textContent=flow.purpose;
+  $('previous').disabled=stepIndex===0;$('next').disabled=stepIndex===flow.steps.length-1;
+  $('stops').innerHTML=flow.steps.map((s,i)=>`<button data-step="${i}" ${i===stepIndex?'aria-current="step"':''}><span class="${s.passed?'good':'bad'}">${s.passed?'✓':'!'}</span> ${i+1}. ${esc(s.label)}<small>${esc(clock(s.at))}</small></button>`).join('');
+  for(const button of $('stops').querySelectorAll('button'))button.addEventListener('click',()=>{stepIndex=Number(button.dataset.step);render();});
+  const heading=`<div class="card"><div class="eyebrow">Stop ${stepIndex+1} / ${flow.steps.length} · ${step.passed?'Checks passed':'Review findings'}</div><h2>${esc(step.location.label)}</h2><div class="step-meta">Simulated clock: ${esc(clock(step.at))}<br>Public test pin: ${esc(step.location.pin)} · ${esc(step.location.source)}</div><div class="banner">${esc(step.changes)}</div></div>`;
+  if(step.rejected){$('stage').innerHTML=heading+`<div class="card"><h3>Location validation</h3><p>Both HERE and Around you should reject this input before choosing a zone or giving advice.</p>${checkList(step)}</div>`;return;}
+  const view=metroView?step.metro_awareness:step.awareness,coverage=view.busyness_coverage||{},nearby=step.here.nearby||[];
+  const observations=view.observations||[];
+  const roadRows=observations.filter(o=>o.layer==='access'),otherRows=observations.filter(o=>o.layer!=='access');
+  $('stage').innerHTML=heading+`<div class="card"><div class="eyebrow">HERE response</div><h2>${esc(step.here.action_plain)} <small>· ${esc(step.here.action)}</small></h2><p class="statement">${esc(step.here.spoken)}</p><p class="muted">${esc(step.route_input)}</p><details><summary>Nearby opportunity cards · ${nearby.length}</summary>${nearby.map(n=>`<div class="facts"><p>${esc(n.plain||n.title||n.zone)}</p><small>Route basis: ${esc(n.route_basis)}</small></div>`).join('')}</details></div>
+  <div class="split"><div class="card"><h3>Overall decision</h3><p>${esc(step.decision.action)}${step.decision.best_zone?' · '+esc(step.decision.best_zone):''}</p><p>${esc(step.decision.explanation)}</p><p class="muted">${step.opportunities.length} scored windows. Open the raw response below for scores and evidence.</p></div><div class="card"><h3>Around this stop</h3><div class="counts"><span>${step.awareness.observations.length} named-area observations</span><span>${step.pin_radius_count} within 3 miles / metro context</span><span>${step.metro_count} across the metro</span></div><p class="muted">Named area: ${esc(step.zone)}. Radius results use approximate area centers and may include metro-wide context.</p><p>${step.awareness.observations.length?'':esc(step.awareness.empty_note)}</p></div></div>
+  <div class="card" style="margin-top:16px"><div class="controls"><h3>${metroView?'Metro':'Local'} awareness</h3><button id="view-toggle">${metroView?'Show local area':'Show metro'}</button></div><p class="muted">Original capture: ${esc(clock(view.snapshot.collected_at))} · ${esc(view.snapshot.state)}${view.snapshot.age_minutes!=null?' · '+esc(view.snapshot.age_minutes)+' minutes old':''}.</p>${!view.snapshot.full_window_covered?'<p class="bad">The saved capture does not cover the full six-hour outlook. Later coverage is incomplete.</p>':''}${observationCards(otherRows)}${roadRows.length?`<details><summary>Traffic and access · ${roadRows.length} observations</summary>${observationCards(roadRows)}</details>`:''}${!observations.length?'<p>No matching observations. Missing coverage does not establish low demand.</p>':''}
+  <details open><summary>BestTime · ${coverage.sampled||0} sampled venues · ${coverage.recent_live||0} recent live readings</summary>${activityCards(view)}</details></div>
+  <div class="card">${checkList(step)}<details><summary>Complete app response at this stop</summary><pre>${esc(JSON.stringify(step,null,2))}</pre></details></div>`;
+  $('view-toggle').addEventListener('click',()=>{metroView=!metroView;render();});
+}
+$('flow').addEventListener('change',()=>{flowIndex=Number($('flow').value);stepIndex=0;render();});
+$('previous').addEventListener('click',()=>{if(stepIndex>0){stepIndex--;render();}});
+$('next').addEventListener('click',()=>{if(stepIndex+1<report.flows[flowIndex].steps.length){stepIndex++;render();}});
+render();
+</script></body></html>
