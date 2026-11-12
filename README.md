@@ -75,3 +75,7 @@ BestTime is controlled separately by an explicit, bounded allowance. Do not assu
 See [Validation](docs/VALIDATION.md) for the export's test results and intentionally excluded private-data tests. The [publication notes](docs/PUBLICATION.md) explain what was removed and how this repository was prepared.
 
 This repository starts from a sanitized source snapshot. It deliberately does not include the original development Git history. No API key, access key, private hostname, personal trip ledger, recording, or upload signing key is required to read or build the source.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
